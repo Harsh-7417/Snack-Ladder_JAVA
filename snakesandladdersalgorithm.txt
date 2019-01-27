@@ -1,0 +1,38 @@
+This program will simulate a regular snakes and ladders game, where you will be  facing the computer. 
+You and the computer start at square 1, and the first one to square 100 wins, 
+
+however, there will be preset squares which will be the snakes or ladders. 
+
+Once you land on top of a snake you go down a few squares, 
+
+and move up if you land  on the bottom of a ladder.
+
+
+Pseudo code is this
+
+
+Print rules of the game
+
+Makes the board for the player
+
+Prompt user to start the game
+If (input==’y’)
+  Then startGame
+Else
+  Leave command prompt
+
+If startGame
+
+Set starting position for user and computer to 1
+
+User throws the dice then computer throws the dice one after other
+
+Prints the final position after each dice throw for the user as well as computer repeatedly
+
+If user reaches the ladder or snake bitten then reflect the final position after such propositions both
+for user and computer
+Whoever first reaches the 100 , will win the game , with n predefined attempts
+
+If no one wins with in predefined attempts then prompt user to play the game again or not
+
+Repeat step 1
